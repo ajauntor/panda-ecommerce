@@ -11,7 +11,7 @@
 <body>
   <!-- Start navbar section -->
   <header class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -24,13 +24,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shoes</a>
+              <a class="nav-link" href="#shoes">Shoes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Backpack</a>
+              <a class="nav-link" href="#backpack">Backpack</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+              <a class="nav-link" href="#sub" tabindex="-1" aria-disabled="true">Subscribe</a>
             </li>
           </ul>
         </div>
@@ -102,21 +102,21 @@
   <!-- Start catagorise section -->
   <main class="container">
     <section class="container overflow-hidden mt-5 catagorise01 ">
-      <div class="row gx-5">
+      <div class="row g-5">
         <div class="col">
-          <div class="p-3 bg-warning rounded d-flex align-items-center justify-content-around">
+          <div class="p-3 bg-warning bg-gradient rounded d-flex align-items-center justify-content-around">
             <h2 class="text-white">Watch</h2>
             <img src="images/categories/watch.png" alt="">
           </div>
         </div>
         <div class="col">
-          <div class="p-3 bg-success rounded d-flex justify-content-around align-items-center">
+          <div class="p-3 bg-success bg-gradient rounded d-flex justify-content-around align-items-center">
             <h2 class="text-white">Bag</h2>
             <img src="images/categories/bag.png" alt="">
           </div>
         </div>
         <div class="col">
-          <div class="p-3 bg-primary rounded d-flex align-items-center justify-content-around">
+          <div class="p-3 bg-primary bg-gradient rounded d-flex align-items-center justify-content-around">
             <h2 class="text-white">Shoes</h2>
             <img src="images/categories/shoes.png" alt="">
           </div>
@@ -126,7 +126,7 @@
     <!-- End catagorise section -->
 
     <!--Start shoes section-->
-    <section class="mt-5">
+    <section id="shoes" class="mt-5">
       <div>
         <h3>Shoes</h3>
       </div>
@@ -174,7 +174,7 @@
     <!-- Shoes section End -->
 
     <!-- Backpack section Start -->
-    <section class="mt-5">
+    <section id="backpack" class="mt-5">
       <h3>Backpack</h3>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -223,7 +223,7 @@
     <!-- Backpack Section End -->
 
     <!-- Start email section -->
-    <section style="height:280px" class="bg-light mt-5 d-flex align-items-center justify-content-center">
+    <section id="sub" style="height:280px" class="bg-light mt-5 d-flex align-items-center justify-content-center">
       <div>
         <h1>LET'S STAY IN TOUCH</h1>
         <h5>Get updates on sales, specials and more</h5>
