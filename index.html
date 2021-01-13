@@ -1,12 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-</head>
-<body>
-    <h1>Hi There! How is going life</h1>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<head>
+  <title>Panda - A great platform to buy your product!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Start navbar section -->
+  <header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shoes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Backpack</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar section -->
+
+    <!-- Start Carosel section -->
+    <div id="carouselExampleIndicators" class="carousel slide panda-color mt-5" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row align-items-center p-5">
+            <div class="col-md-7 ">
+              <h1>Mega LED TV for Sports</h1>
+              <p style="text-align: justify;">Smart Android Led Tv Monitor (Double Glass), Size- 32-Inch Display,Panel- Flat Screen, Resolution- HD LED Television, Technology- LED, 3D Technology- 2D TV, Response Time- 5ms, 100 Hz, Contrast- Dynamic Mega Contrast Ratio, Brightness Live Color, TV Tuner- Yes, Hi Quality Built In Spekar, Connectivity- HDMI,VGA,USB, Remote- RMT-TX100P, RMF-TX100E, Connectivity- USB, VGA, HDMI, Other- Features Floating Style,TV, 178° Right to Left, 178° Upto Down.
+              </p>
+              <h3 class="noton-color">$1700</h3>
+              <button class="btn btn-warning">Buy now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center p-5">
+            <div class="col-md-7">
+              <h1>Nitront Ultra Bass Headphone </h1>
+              <p style="text-align: justify;">Black have large ear cups that completely cover the ear from external noises and sounds. It has excellent sound quality and ear pads improve the comfort of wearing. It is with built-in microphone designed for audio playback in stereo. Connected to a computer, laptop, TV, MP3-player and other devices with standard audio jack 3.5 mm. Thanks to the microphone built into the headset, there is no need to purchase a separate microphone to participate in video conferences and communicate in to Skype.</p>
+              <h3 class="noton-color">$1250</h3>
+              <button class="btn btn-warning">Buy now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center p-5">
+            <div class="col-md-7">
+              <h1>X-Box for your your living room</h1>
+              <p style="text-align: justify;">The Xbox 360, like all video game consoles, is just a computer with hardware and software dedicated to the function of running video game software. The original Xbox was essentially a Windows PC with a modified Pentium III processor, some relatively powerful graphics and audio hardware and a modified version of the Microsoft operating system Windows 2000, all packaged in that distinctive black box. The Xbox 360 is also a specially packaged computer.</p>
+              <h3>$1170</h3>
+              <button class="btn btn-warning">Buy now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </header>
+  <!-- End Carosel section -->
+
+  <!-- Start catagorise section -->
+  <main class="container">
+    <section class="container overflow-hidden mt-5 catagorise01 ">
+      <div class="row gx-5">
+        <div class="col">
+          <div class="p-3 bg-warning rounded d-flex align-items-center justify-content-around">
+            <h2 class="text-white">Watch</h2>
+            <img src="images/categories/watch.png" alt="">
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 bg-success rounded d-flex justify-content-around align-items-center">
+            <h2 class="text-white">Bag</h2>
+            <img src="images/categories/bag.png" alt="">
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 bg-primary rounded d-flex align-items-center justify-content-around">
+            <h2 class="text-white">Shoes</h2>
+            <img src="images/categories/shoes.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End catagorise section -->
+
+    <!--Start shoes section-->
+    <section class="mt-5">
+      <div>
+        <h3>Shoes</h3>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card juta-card h-100 shadow">
+            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SPLY 350</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer juta-footer">
+              <button class="btn btn-warning">Buy now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card juta-card h-100 shadow">
+            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nike 360</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer juta-footer">
+              <button class="btn btn-warning">Buy now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card juta-card h-100 shadow">
+            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red Airmax</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer juta-footer">
+              <button class="btn btn-warning">Buy now >></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Shoes section End -->
+
+    <!-- Backpack section Start -->
+    <section class="mt-5">
+      <h3>Backpack</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card juta-card h-100 shadow">
+            <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red OGIO</h5>
+              <h5>$125</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer juta-footer">
+              <button class="btn btn-warning">Buy now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card juta-card h-100 shadow">
+            <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Burton fex</h5>
+              <h5>$159</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer juta-footer">
+              <button class="btn btn-warning">Buy now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card juta-card h-100 shadow">
+            <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Black widsel</h5>
+              <h5>$180 </h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer juta-footer">
+              <button class="btn btn-warning">Buy now >></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Backpack Section End -->
+
+    <!-- Start email section -->
+    <section style="height:280px" class="bg-light mt-5 d-flex align-items-center justify-content-center">
+      <div>
+        <h1>LET'S STAY IN TOUCH</h1>
+        <h5>Get updates on sales, specials and more</h5>
+        <input type="email" placeholder="Enter your e-mail address">
+        <abbr title="To get more, What we offer every friday"><button class="btn btn-warning">SUBMIT</button></abbr>
+      </div>
+    </section>
+  </main>
+  <!-- Start footer section -->
+  <footer class="text-center mt-5">
+    <small style="color: dimgray;">&copy;2021 <a style="text-decoration: none;" href="https://www.linkedin.com/in/ajauntors/" target="_blank">AJ Auntor</a>.all rights reserved panda commerce</small>
+  </footer>
+  <!-- End footer Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
